@@ -1,8 +1,12 @@
+article:first-of-type {
+  box-shadow: gray 3px 3px 8px;
+  background-color: #D2F0FA; }
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #2D5461;
+  color: purple;
   font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif; }
 
 .cta-container {
@@ -12,24 +16,21 @@ body {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center; }
-
-.cta {
-  text-align: center;
-  display: flex;
-  flex-flow: column nowrap;
-  padding: 1rem;
-  justify-content: center;
-  align-items: space-around;
-  box-shadow: gray 3px 3px 8px;
-  background-color: #C0FABE;
-  margin: 1rem; }
-
-.cta img {
-  max-width: 300px; }
-
-.cta a {
-  text-decoration: none;
-  color: #2D5461; }
+  .cta-container .cta {
+    box-shadow: gray 3px 3px 8px;
+    background-color: #C0FABE;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1rem;
+    justify-content: center;
+    align-items: space-around;
+    margin: 1rem; }
+    .cta-container .cta img {
+      max-width: 300px; }
+    .cta-container .cta a {
+      text-decoration: none;
+      color: purple; }
 
 .hl4 {
   text-align: center;
@@ -55,7 +56,7 @@ footer {
 input[type="submit"] {
   border-radius: .5rem;
   color: white;
-  background-color: #3a612d; }
+  background-color: #3A612D; }
 
 .highlight-background {
   background-color: #D2F0FA; }
